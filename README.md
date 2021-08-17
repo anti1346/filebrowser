@@ -12,5 +12,5 @@ https://filebrowser.xyz/
 crontab -l
 <code>
 ### Scanner file : Delete files 3 days ago
-01 01 * * *	/app/filebrowser/file_delete.sh > /dev/null 2>&1
+  01 01 * * *	/app/filebrowser/file_delete.sh > /dev/null 2>&1
 <code>
